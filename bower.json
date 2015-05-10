@@ -1,22 +1,17 @@
 {
   "name": "angular-ui-maya",
   "version": "0.0.1",
-  "description": "This directive allows you to Maya in your form.",
+  "description": "This directive allows you to Maya in your form",
   "author": "x22a",
   "license": "MIT",
   "main": "./src/maya.js",
   "ignore": [
     "**/.*",
     "node_modules",
-    "components",
-    "test*",
+    "node",
     "demo*",
-    "gruntfile.js",
+    "Gruntfile.js",
     "package.json",
     "pom.xml"
-  ],
-  "dependencies": {
-    "angular": "~1.x",
-    "maya": "git@github.com:hex22a/maya.git#0.0.2"
-  }
+  ]
 }

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Maya demo</title>
+    <script type="text/javascript" src="dep/maya/maya.min.js"></script>
+    <script type="text/javascript" src="dep/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../src/maya.js"></script>
+    <script type="text/javascript" src="wysiwyg_controller.js"></script>
+</head>
+<body ng-app="wysiwyg">
+<form method="post" ng-controller="wysiwygController">
+    <textarea id="maya"  ui-maya="mayaOptions" ng-model="content"></textarea>
+    {{content}}
+</form>
+</body>
+</html>

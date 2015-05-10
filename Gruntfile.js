@@ -4,19 +4,13 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     jshint: {
-      files: ['Gruntfile.js']
+      files: ['Gruntfile.js', 'src/maya.js']
     },
 
 
     uglify: {
-      themes: {
-        src: ["themes/*/theme.js"],
-        expand: true,
-        ext: ".min.js"
-      },
-
-      plugins: {
-        src: ["plugins/*/plugin.js"],
+      maya: {
+        src: ["src/maya.js"],
         expand: true,
         ext: ".min.js"
       }
