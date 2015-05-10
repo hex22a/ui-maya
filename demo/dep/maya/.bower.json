@@ -1,0 +1,28 @@
+{
+  "name": "maya",
+  "version": "0.0.2",
+  "description": "Fork of TinyMCE project",
+  "keywords": [
+    "editor",
+    "wysiwyg",
+    "richtext",
+    "javascript",
+    "html"
+  ],
+  "main": "maya.min.js",
+  "ignore": [
+    "readme.md",
+    "composer.json",
+    "package.json"
+  ],
+  "homepage": "https://github.com/hex22a/maya",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "68566b9cc07f6d7c5e72abf4e0312fd382fbca01"
+  },
+  "_source": "git://github.com/hex22a/maya.git",
+  "_target": "0.0.2",
+  "_originalSource": "git://github.com/hex22a/maya.git"
+}
